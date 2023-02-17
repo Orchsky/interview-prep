@@ -129,3 +129,21 @@ Answer: 1) AWS Trusted Adviser and 2) Scout2
 
 What is AWS Trusted Adviser? AWS Trusted Advisor is an online tool that provides you real time guidance to help you provision your resources following AWS best practices.
 
+Question: How do you capture real-time apache logs analysis?
+Answer: Amazon Kinesis and Amazon Elasticsearch Service 
+
+Step1: Setup ElasticSearch Cluster
+Step2: Setup firehose delivery Pipeline, this will continuously insert logs to ElasticSearch Cluster
+Step3: Send data to Firehose Delivery Stream
+Step4: Visualize the data using Kibana
+
+What is Amazon Kinesis
+
+Amazon Kinesis is the streaming service provided by AWS which makes it easy to collect, 
+process, and analyze real-time, streaming data so you can get timely insights and react quickly 
+to new information.
+
+What is AWS ElasticSearch Service
+
+AWS ElasticSearch Service is a cost-effective managed service that makes it easy to deploy, 
+manage, and scale open source Elasticsearch for log analytics, full-text search and more.
